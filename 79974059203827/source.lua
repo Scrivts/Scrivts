@@ -3,8 +3,23 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/scri
 local args = {
     [1] = 1,
     [2] = 0,
-    [3] = "ISCHOOLWEBSITEWHATSHALALA777WINPRESIDENTANDMONEYIM17LOVE"
+    [3] = "SNAPESNAPEMOTORBIKE369369EVERYBODYHUSTLEMANoo+"
 }
+
+local function addMoney(money)
+   local args2 = {
+    [1] = 1,
+    [2] = -money,
+    [3] = "SNAPESNAPEMOTORBIKE369369EVERYBODYHUSTLEMANoo+"
+    }
+
+    game:GetService("ReplicatedStorage"):WaitForChild("CutInLineEvent2"):FireServer(unpack(args2))
+
+    local args3 = {
+      [1] = "SNAPESNAPEMOTORBIKE369369EVERYBODYHUSTLEMANoo+"
+   }
+   game:GetService("ReplicatedStorage"):WaitForChild("PUSHMEBACK"):FireServer(unpack(args3))
+end
 
 local Window = Rayfield:CreateWindow({
    Name = "Scrivts",
@@ -38,8 +53,8 @@ local Push = Tab:CreateButton({
 })
 
 local Push = Tab:CreateButton({
-   Name = "Add 1T Money (PATCHED)",
+   Name = "Add 1T Money",
    Callback = function()
-      warn("PATCHED")
+      addMoney(1000000000000)
    end,
 })
