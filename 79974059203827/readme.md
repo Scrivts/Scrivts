@@ -1,4 +1,5 @@
-# Freaky Prison Line Simulator (79974059203827) PATCHED RISK GETTING BANNED
+# PATCHED RISK GETTING BANNED
+# Freaky Prison Line Simulator (79974059203827)
 
 ## About this script
 This script allows you to skip the line for free, push players for free, ~~and give yourself any amount of cash~~!
