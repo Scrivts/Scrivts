@@ -3,20 +3,20 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/scri
 local args = {
     [1] = 1,
     [2] = 0,
-    [3] = "SNAPESNAPEMOTORBIKE369369EVERYBODYHUSTLEMANoo+"
+    [3] = "IFYOUHACKTHISGAMEIWISHYOURSHOWERISCOLD!!!999888OH"
 }
 
 local function addMoney(money)
    local args2 = {
     [1] = 1,
     [2] = -money,
-    [3] = "SNAPESNAPEMOTORBIKE369369EVERYBODYHUSTLEMANoo+"
+    [3] = "IFYOUHACKTHISGAMEIWISHYOURSHOWERISCOLD!!!999888OH"
     }
 
     game:GetService("ReplicatedStorage"):WaitForChild("CutInLineEvent2"):FireServer(unpack(args2))
 
     local args3 = {
-      [1] = "SNAPESNAPEMOTORBIKE369369EVERYBODYHUSTLEMANoo+"
+      [1] = "IFYOUHACKTHISGAMEIWISHYOURSHOWERISCOLD!!!999888OH"
    }
    game:GetService("ReplicatedStorage"):WaitForChild("PUSHMEBACK"):FireServer(unpack(args3))
 end
