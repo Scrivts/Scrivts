@@ -1,3 +1,13 @@
+-- kicks the player if your password changed :)
+if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Main"):FindFirstChild("ToiletChat"):FindFirstChild("TemplateButton"):FindFirstChild("MainLocalScript") then
+   local hash = getscripthash(game:GetService("Players").LocalPlayer.PlayerGui.Main.ToiletChat.TemplateButton.MainLocalScript)
+   if hash ~= "5505f6adc4a944c9cbd85b9de1bb78132d84cf4084b0be0fcce0e90a20f93c721af203334c70251a6502d555e401bcff" then
+       game:Shutdown()
+   end
+else
+   game:Shutdown()
+end
+
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/scrivts/Rayfield/refs/heads/main/source.lua'))()
 
 local args = {
