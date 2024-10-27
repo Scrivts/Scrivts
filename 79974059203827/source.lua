@@ -1,7 +1,6 @@
--- kicks the player if your password changed :)
 if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Main"):FindFirstChild("ToiletChat"):FindFirstChild("TemplateButton"):FindFirstChild("MainLocalScript") then
    local hash = getscripthash(game:GetService("Players").LocalPlayer.PlayerGui.Main.ToiletChat.TemplateButton.MainLocalScript)
-   if hash ~= "250572cb77fea26c497bb8181ac2bec9e4f5751f93bd88e874a38a44c9a37179b6f01e1583d4a186521d9ae41ff3f684" then
+   if hash ~= "d80d093d39dcb8f0ff8fd379b21e87cab1bf19cf883b5f1dbd1485756abe7d7e516fb39289682953eecdf7a0392f4612" then
        game:Shutdown()
    end
  else
@@ -13,20 +12,20 @@ if game:GetService("Players").LocalPlayer.PlayerGui:FindFirstChild("Main"):FindF
  local args = {
     [1] = 1,
     [2] = 0,
-    [3] = "IWISHYOUGOODLUCK777888BESTGAMESLAY99LONGCODEDTILVL1"
+    [3] = "IWISHYOUGOODLUCK777888BESTGAMESLAY99COOLGAMECHANGEDO"
  }
  
  local function addMoney(money)
    local args2 = {
     [1] = 1,
     [2] = -money,
-    [3] = "IWISHYOUGOODLUCK777888BESTGAMESLAY99LONGCODEDTILVL1"
+    [3] = "IWISHYOUGOODLUCK777888BESTGAMESLAY99COOLGAMECHANGEDO"
     }
  
     game:GetService("ReplicatedStorage"):WaitForChild("CutInLineEvent2"):FireServer(unpack(args2))
  
     local args3 = {
-      [1] = "IWISHYOUGOODLUCK777888BESTGAMESLAY99LONGCODEDTILVL1"
+      [1] = "IWISHYOUGOODLUCK777888BESTGAMESLAY99COOLGAMECHANGEDO"
    }
    game:GetService("ReplicatedStorage"):WaitForChild("PUSHMEBACK"):FireServer(unpack(args3))
  end
