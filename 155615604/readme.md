@@ -1,7 +1,7 @@
 # Prison Life (155615604)
 
 ## About this script
-COMING SOON
+Most of the script is stolen but it works!
 
 ## Loadstring
 

@@ -1,5 +1,5 @@
 --[[
-Scrivts
+Scrivts Loader v1.0
 --]]
 
 if game.PlaceId == 79974059203827 then
