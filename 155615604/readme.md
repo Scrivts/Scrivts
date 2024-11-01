@@ -1,11 +1,11 @@
 # Prison Life (155615604)
 
 ## About this script
-Most of the script is stolen but it works!
+Give yourself all items and guns
 
 ## Loadstring
 
-```https://raw.githubusercontent.com/scrivts/Scrivts/refs/heads/main/155615604/source.lua```
+```loadstring(game:HttpGet("https://raw.githubusercontent.com/scrivts/Scrivts/refs/heads/main/155615604/source.lua"))()```
 
 ## Source
 
