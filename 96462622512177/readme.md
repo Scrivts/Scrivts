@@ -1,4 +1,4 @@
-# Prison Life (155615604)
+# Supermarket Simulator (96462622512177)
 
 ## About this script
 Give yourself all items and guns
