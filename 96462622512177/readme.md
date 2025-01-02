@@ -1,7 +1,7 @@
 # Supermarket Simulator (96462622512177)
 
 ## About this script
-Give yourself all items and guns
+Infinite money
 
 ## Loadstring
 
@@ -9,6 +9,6 @@ Give yourself all items and guns
 
 ## Source
 
-https://github.com/Scrivts/Scrivts/blob/main/155615604/source.lua
+https://github.com/Scrivts/Scrivts/blob/main/96462622512177/source.lua
 
 # Scrivts
